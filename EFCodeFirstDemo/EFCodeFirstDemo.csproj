@@ -161,6 +161,10 @@
     <Compile Include="Migrations\201807310631450_initial database.Designer.cs">
       <DependentUpon>201807310631450_initial database.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807310643440_update Table.cs" />
+    <Compile Include="Migrations\201807310643440_update Table.Designer.cs">
+      <DependentUpon>201807310643440_update Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\MyDbcontext.cs" />
@@ -226,6 +230,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807310631450_initial database.resx">
       <DependentUpon>201807310631450_initial database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807310643440_update Table.resx">
+      <DependentUpon>201807310643440_update Table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
